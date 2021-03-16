@@ -1,0 +1,28 @@
+{
+    "name": "dominicwatts/clearschedule",
+    "description": "Magento 2 console command clear cron schedule",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Dominic Xigen",
+            "email": "xigen.dominic@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Xigen\\ClearSchedule\\": ""
+        }
+    }
+}
