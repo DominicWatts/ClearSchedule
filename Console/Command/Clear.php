@@ -55,6 +55,26 @@ class Clear extends Command
     private $report = [];
 
     /**
+     * @var null
+     */
+    private $startTime = null;
+
+    /**
+     * @var \Magento\Framework\DB\Adapter\AdapterInterface
+     */
+    private $connection;
+
+    /**
+     * @var \Magento\Framework\App\ResourceConnection
+     */
+    private $resource;
+
+    /**
+     * @var string
+     */
+    private $tableName;
+
+    /**
      * @param \Psr\Log\LoggerInterface $logger
      * @param \Magento\Framework\App\State $state
      * @param \Magento\Framework\Stdlib\DateTime\DateTime $dateTime
@@ -160,4 +180,3 @@ class Clear extends Command
         parent::configure();
     }
 }
-

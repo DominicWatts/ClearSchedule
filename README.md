@@ -11,7 +11,7 @@ Magento 2 console command clear cron schedule
 
 # Install instructions
 
-`composer require dominicwatts/markerio`
+`composer require dominicwatts/clearschedule`
 
 `php bin/magento setup:upgrade`
 
@@ -21,4 +21,4 @@ Magento 2 console command clear cron schedule
 
    xigen:clearschedule:clear
 
-   php bin/magneto xigen:clearschedule:clear
+   php bin/magento xigen:clearschedule:clear
